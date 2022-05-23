@@ -6,7 +6,7 @@ const AddTask = ({handleAddTask}) => {
   // NOTE: do not delete `data-cy` key value pair
 
   const [input,setInput]=useState({
-    id:Date.now(),
+   
     text:"",
     done:"false",
     count:1
@@ -19,7 +19,7 @@ const AddTask = ({handleAddTask}) => {
  
   return (
     <div className={styles.todoForm}>
-      <input placeholder="Add Task" onChange={(e)=>setInput({...input,text:e.target.value})} data-cy="add-task-input" type="text" />
+      <input placeholder="Add Task" onChange={(e)=>setInput({...input,text:e.target.value,id:Date.now()})} data-cy="add-task-input" type="text" />
       <button onClick={AddTask} data-cy="add-task-button" >Add</button>
     </div>
   );
