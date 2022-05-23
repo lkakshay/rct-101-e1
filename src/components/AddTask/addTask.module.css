@@ -1,3 +1,11 @@
 .addTask {
   /* Sample */
 }
+
+input{
+  width: 300px;
+  height: 30px;
+}
+button{
+  height: 30px;
+}

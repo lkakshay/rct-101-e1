@@ -1,3 +1,12 @@
 .counter {
-  /* TODO */
+  display: flex;
+  
+}
+button{
+  width: 40px;
+}
+span{
+  width: 40px;
+  padding-top: 8px;
+  
 }

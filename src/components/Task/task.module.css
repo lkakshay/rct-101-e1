@@ -1,3 +1,12 @@
 .task {
-  /* Sample  */
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px ;
 }
+
+.task>div{
+  width: 90%;
+  text-align: center;
+  margin-top: 5px;
+}
+
